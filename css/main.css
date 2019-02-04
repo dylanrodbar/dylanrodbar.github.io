@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+hr {
+    width: 4rem;
+    border: 4px solid;
+    margin: 2rem auto;
+}
+
+button {
+    display: block;
+    margin: 3rem auto;
+    line-height: 19px;
+    padding: 12px 16px;
+    border-radius: 3px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    padding: 12px 20px;
+    transform: translateY(-2px);
+    -moz-transition: 0.2s cubic-bezier(.64,.02,.79,.78);
+    -webkit-transition: 0.2s cubic-bezier(.64,.02,.79,.78);
+    transition: 0.2s cubic-bezier(.64,.02,.79,.78);
+}
+
+p {
+    text-align: center;
+    width: 80%;
+    margin: 2rem auto;
+    color: #4a4a4a;
+}
+
+h2 {
+    font-size: 1.8rem;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+/*!--- INTRO ----*/
+
+.intro-box {
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    padding-top: 15rem;
+    padding-bottom: 2rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    text-align: center;
+    color: #fff;
+    width: 75%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767.98px) {
+    h1{
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        width: 100%;
+    }
+    
+    p {
+        width: 100%;
+    }
+}
+
+.wh-line {
+    border-color: #fff;
+}
+
+.wh {
+    color: #fff;
+}
+
+.gr-btn {
+    background-color: #aed755;
+    border: 1px solid transparent;
+    margin: 2rem auto;
+}
+
+.gr-btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.gr-line {
+    border-color: #aed755;
+}
+
+
+/* <!--- Needs ----> */
+
+.gr-box {
+    background: #aed755;
+    padding: 2rem 0;
+    clear: both; /* Evita que haya overlapping entre componentes */
+}
+
+.wh-btn {
+    background-color: #fff;
+    border: 1px solid transparent;
+    margin: 2rem auto;
+}
+
+.wh-btn a {
+    text-decoration: none;
+    color: #aed755;
+}
+
+
+/* --- Services ---- */
+
+.wh-box {
+    background: #fff;
+    padding: 2rem 0;
+    clear: both;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+i {
+    font-size: 3.5rem;
+    width: 100%;
+    padding: 3rem 0 1rem 0;
+    color: #aed755;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.25rem;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.service-text {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+/*!--- Gallery ----*/
+
+.gallery-box {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    clear: both; /* Evita que haya overlapping entre componentes */
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #aed755;
+    -moz-transition: 0.2s cubic-bezier(.64,.02,.79,.78);
+    -webkit-transition: 0.2s cubic-bezier(.64,.02,.79,.78);
+    transition: 0.2s cubic-bezier(.64,.02,.79,.78);
+}
+
+.gallery-box:hover .overlay{
+    opacity: 0.85;
+}
+
+.img-content{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.cat-title{
+    color: #fff;
+}
+
+h4 {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.salvatandas {
+    display: block;
+    -webkit-margin-bottom: 0;
+    -moz-margin-bottom: 0;
+    margin-bottom: 0;
+    border: 0px;
+}
+
+
+.contact {
+    display: block;
+}
+
+.contact p {
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact p a {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+.contact p a:hover {
+    color: #aed755;
+     -moz-transition: 0.2s cubic-bezier(.64,.02,.79,.78);
+    -webkit-transition: 0.2s cubic-bezier(.64,.02,.79,.78);
+    transition: 0.2s cubic-bezier(.64,.02,.79,.78);
+}
+
+
+#contact {
+    min-height: 700px;
+}
